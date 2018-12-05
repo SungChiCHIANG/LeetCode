@@ -4,7 +4,7 @@ using namespace std;
 
 vector<int> Solution::twoSum(vector<int> &nums, int target)
 {
-    // Violent Solution
+    // Brute Force Solution
     vector<int> Ans;
     for(int i = 0; i < nums.size() - 1; i++)
     {
